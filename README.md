@@ -105,12 +105,13 @@ Please raise pull requests with changes in rather than committing directly to Ma
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
-Please ensure you have run the test suite before submitting a Pull Request, and include a version bump in line with our [Versioning](#versioning) policy.
+Please ensure you have run the test suite before submitting a Pull Request
+See [CLA.md](CLA.md)
 
 ## License
 
 See [LICENSE.md](LICENSE.md)
-
+See [CLA.md](CLA.md)
 This is licensed under the Apache 2.0 License.
 
 ## Copyright
