@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for your interest in Zenoss_syncer !
+Thank you for your interest in Zenoss_sync !
 
 ## Issues
 
@@ -18,9 +18,9 @@ You can submit changes through a GitHub pull request as follows:
 * Make and commit changes.
   - Please ensure that contact information is available with the commit data.
 * Push your changes to a topic branch in your fork.
-* Sign the ICLA if you haven't already done so (see below).
+* Sign the CLA if you haven't already done so (see below).
 * Submit a pull request.
 
 ### Contributor Licence Agreement
 
-Please see attached CLA
+Please see attached CLA.md
