@@ -1,0 +1,33 @@
+[system]
+enabled: True
+test_mode: False
+
+[connect_params]
+src_host:
+dest_host:
+
+# note username and password will override cert, leave empty for cert-only
+username:
+password:
+
+# need to be cert and key in same file
+#cert: cert_key.pem
+
+
+# so you are not asked for a SSL vertify message
+ssl_verify: False
+
+# use lower case for device names and add a space to delimit
+[devices]
+ignore: mon001
+
+[logging]
+file: status.log
+level: INFO
+format: %(asctime)s %(levelname)s %(funcName)s() - %(message)s
+
+[event_filter]
+# 0 = clear, 1 = debug, 2 = info, 3 = warning, 4 = error, 5 = critical
+severity: 4
+systems: /ReleaseEnvironment/live
+prod_state: 1000
